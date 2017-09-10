@@ -1,0 +1,25 @@
+a:link#link {
+	font-family: 'Courier';
+	color: black;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1250px;
+}
+a:visited#link {
+	font-family: 'Courier';
+	color: black;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1250px;
+}
+
+a:hover#link {
+	font-family: 'Courier';
+	color: #B9B9B9;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1250px;
+}

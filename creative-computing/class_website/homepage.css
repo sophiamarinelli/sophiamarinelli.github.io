@@ -1,0 +1,30 @@
+body {background-color: white;
+
+}
+h1 {font-family: 'Shrikhand', cursive;
+    color: black;
+	font-size: 250px;
+	margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+h2 {font-family: 'Courier';
+    color: black;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+ol {font-family: 'Courier';
+	color: black;
+	margin-top: 25px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+a:visited {color:#B9B9B9;
+}
+	
+}
