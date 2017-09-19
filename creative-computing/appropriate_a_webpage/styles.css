@@ -28,6 +28,11 @@ h2 {
 	font-size: large;
 }
 
+#homepage{
+	float: right;
+	font-family: "Helvetica";
+	font-size: xx-small;
+}
 a:link {
     color: black;
 }
