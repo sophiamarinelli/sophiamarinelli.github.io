@@ -1,0 +1,42 @@
+img {
+float:left;
+height:500px;
+margin-left: 400px
+}
+
+h2 {
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: xx-large;
+	position: fixed;
+	border-bottom: 20px;
+	border-style: ridge;
+	border-color: black;
+	padding: 40px;
+	margin-top: 30px;
+
+}
+
+#blocktext {
+	width: 300px;
+	font-family: "Helvetica";
+	margin-top: 250px;
+	position: absolute;
+}
+
+#smallheading {
+	font-size: large;
+}
+
+a:link {
+    color: black;
+}
+
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: crimson;
+}
