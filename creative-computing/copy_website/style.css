@@ -1,0 +1,104 @@
+body{
+	background-color: #DDDDDD;
+	
+}
+
+#left-column{
+	float: left;
+	width: 40%;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 4%;
+	background-color: #001f3f;
+	position: absolute;
+	
+}
+
+#right-column{
+	width: 45%;
+	float: right;
+	background-color: #FF4136;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-bottom: 4%;
+}
+
+.column{
+	font-family: sans-serif;
+	color: #DDDDDD;
+}
+}
+#footer {
+	position:fixed;
+	bottom: 0%;
+	width: 100%;
+	color: white;
+	background-color: #3d9970;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+li {
+	padding-bottom: 10px;
+
+}
+
+.face { 
+	position: fixed;
+	bottom: 0%;
+	right: 2%;
+	margin-bottom: 20px;
+	
+	border: 60px solid;
+	color: #B10DC9;
+	border-radius: 50%;
+	color:pink;
+}
+.face:hover { 
+	position: fixed;
+	bottom: 0%;
+	right: 2%;
+	margin-bottom: 20px;
+	
+	border: 60px solid;
+	color: #B10DC9;
+	border-radius: 50%;
+	color:red;
+	transition: 500ms; 
+}
+.eye-right{
+	position: fixed;
+	bottom: 10%;
+	right: 6%;
+	margin-bottom: 20px;
+	
+	border: 5px solid;
+	color: #001f3f;
+	border-radius:50%;
+}
+.eye-left{
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+	margin-bottom: 20px;
+	
+	border: 5px solid;
+	color: #001f3f;
+	border-radius: 50%;
+}
+
+.mouth {
+	position: fixed;
+	width: 110px;
+	height: 7px;
+	background-color: #001f3f;
+	bottom: 7%;
+	right: 2.5%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	
+	color: #001f3f;
+
+
+}

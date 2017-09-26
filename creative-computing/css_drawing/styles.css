@@ -1,0 +1,154 @@
+body{
+	background-color: #ff9999;
+}
+
+.p {
+	font-family:'Shrikhand', cursive;
+	font-size: 72px;
+
+}
+
+.p:hover{
+	color: blue; 
+	transition: color;
+	transition-duration: 2s;
+
+}
+
+.first {
+	width: 200px;
+	height: 150px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-color: pink;
+
+}
+
+.first_handle {
+	width: 40px;
+	height: 60px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-color: green;
+	margin-left: 200px;
+	margin-top: -150px;
+}
+
+.circle {
+	width:80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #0099ff;
+	margin-left: 60px;
+	margin-top: -35px;
+}
+
+.circle2 {
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: pink;
+	margin-left: 80px;
+	margin-top: -60px;
+
+}
+
+.middle {
+	width: 200px;
+	height: 150px;
+	margin: auto;
+	margin-top: -150px;
+	border-bottom-left-radius: 70%;
+	border-bottom-right-radius: 70%;
+	background-color: red;
+
+}
+
+.middle_handle {
+	width: 40px;
+	height: 60px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-color: yellow;
+	margin-left: 572px;
+	margin-top: -150px;
+}
+
+.stripe1 {
+	width: 200px;
+	height: 10px;
+	background-color: black;
+	margin: auto;
+}
+
+.stripe2 {
+	width: 200px;
+	height: 10px;
+	background-color: black;
+	margin: auto;
+	margin-top: -30px;
+}
+
+.last {
+	width: 200px;
+	height: 150px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-color: #0099ff;
+	border-width: 20px;
+	float: right;
+	position: relative;
+}
+
+.last_handle {
+	width: 40px;
+	height: 60px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-color: orange;
+	margin-left: 1185px;
+	margin-top: -150px;
+}
+
+.square {
+	width: 90px;
+	height: 90px;
+	border-radius: 10%;
+	border: double;
+	border-color: yellow;
+	border-width: 10px;
+	float: right;
+	margin-right: -150px;
+	margin-top: 15px;
+	position: relative; 
+	z-index: 4;
+}
+
+
+.spin1:hover {
+	transform:rotateX(90deg);
+	transition-duration: .25s;
+
+}
+
+.spin2:hover {
+	transform: rotateZ(90deg);
+	transition-duration: .25s;
+}
+
+
+a {
+	position: fixed;
+	bottom: 0px;
+	color:black;
+	font-family: 'Courier';
+
+}
+
+a:hover {
+	color:blue;
+	transition: color 2s;
+}
+
+
+
