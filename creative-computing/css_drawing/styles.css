@@ -1,17 +1,17 @@
-body{
-	background-color: #ff9999;
-}
+
 
 .p {
-	font-family:'Shrikhand', cursive;
-	font-size: 72px;
+	position: absolute;
+	top: -50px;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
 
 }
 
 .p:hover{
-	color: blue; 
+	color: pink; 
 	transition: color;
-	transition-duration: 2s;
+	transition-duration: .5s;
 
 }
 
@@ -21,6 +21,9 @@ body{
 	border-bottom-left-radius: 50%;
 	border-bottom-right-radius: 50%;
 	background-color: pink;
+	position: absolute;
+	top: 150px;
+	left: 0px;
 
 }
 
@@ -30,8 +33,9 @@ body{
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
 	background-color: green;
-	margin-left: 200px;
-	margin-top: -150px;
+	position: absolute;
+	top: 150px;
+	left: 200px
 }
 
 .circle {
@@ -39,8 +43,9 @@ body{
 	height: 80px;
 	border-radius: 50%;
 	background-color: #0099ff;
-	margin-left: 60px;
-	margin-top: -35px;
+	position: absolute;
+	top: 170px;
+	left: 60px;
 }
 
 .circle2 {
@@ -48,16 +53,18 @@ body{
 	height: 40px;
 	border-radius: 50%;
 	background-color: pink;
-	margin-left: 80px;
-	margin-top: -60px;
+	position: absolute;
+	top: 190px;
+	left: 80px;
 
 }
 
 .middle {
 	width: 200px;
 	height: 150px;
-	margin: auto;
-	margin-top: -150px;
+	position: absolute;
+	top: 150px;
+	left: 700px;
 	border-bottom-left-radius: 70%;
 	border-bottom-right-radius: 70%;
 	background-color: red;
@@ -70,23 +77,27 @@ body{
 	border-top-left-radius: 50%;
 	border-bottom-left-radius: 50%;
 	background-color: yellow;
-	margin-left: 572px;
-	margin-top: -150px;
+	position: absolute;
+	left: 660px;
+	top: 150px;
 }
 
 .stripe1 {
 	width: 200px;
 	height: 10px;
 	background-color: black;
-	margin: auto;
+	position: absolute;
+	top: 150px;
+	left: 700px;
 }
 
 .stripe2 {
 	width: 200px;
 	height: 10px;
 	background-color: black;
-	margin: auto;
-	margin-top: -30px;
+	position: absolute;
+	top: 180px;
+	left: 700px;
 }
 
 .last {
@@ -96,8 +107,9 @@ body{
 	border-bottom-right-radius: 50%;
 	background-color: #0099ff;
 	border-width: 20px;
-	float: right;
-	position: relative;
+	position: absolute;
+	right:0px;
+	top: 150px;
 }
 
 .last_handle {
@@ -106,8 +118,9 @@ body{
 	border-top-left-radius: 50%;
 	border-bottom-left-radius: 50%;
 	background-color: orange;
-	margin-left: 1185px;
-	margin-top: -150px;
+	position: absolute;
+	right: 200px;
+	top: 150px;
 }
 
 .square {
@@ -117,23 +130,10 @@ body{
 	border: double;
 	border-color: yellow;
 	border-width: 10px;
-	float: right;
-	margin-right: -150px;
-	margin-top: 15px;
-	position: relative; 
-	z-index: 4;
-}
+	position: absolute;
+	top: 160px;
+	right: 45px;
 
-
-.spin1:hover {
-	transform:rotateX(90deg);
-	transition-duration: .25s;
-
-}
-
-.spin2:hover {
-	transform: rotateZ(90deg);
-	transition-duration: .25s;
 }
 
 
@@ -151,4 +151,14 @@ a:hover {
 }
 
 
+#handler {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	font-size: 200px;
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	color: "white";
 
+
+}

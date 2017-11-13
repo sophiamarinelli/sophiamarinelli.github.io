@@ -107,7 +107,16 @@ function update() {
 
 setInterval(update, 500)
 
+one.addEventListener("click", handleDocumentClick)
+two.addEventListener("click", handleDocumentClick)
 
+function handleDocumentClick() {
+	one.style.backgroundColor = "white"
+}
+
+function handleDocumentClick() {
+	two.style.backgroundColor = "white"
+}
 
 console.log("!")
 
