@@ -18,3 +18,12 @@ function keyDownTilt(evt) {
 	var key = evt.key
 	teacuptwo.style.transform = "rotate(30deg)"
 	}
+
+var teaTime = document.getElementById("teatime")
+
+teaTime.addEventListener("click", grow)
+
+function grow(evt) {
+	var teaTime = event.target
+	teaTime.style.transform = "scale(400%, 400%)"
+}

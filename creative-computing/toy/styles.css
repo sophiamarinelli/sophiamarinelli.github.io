@@ -1,0 +1,63 @@
+.mash {
+	position: absolute;
+	text-align: left;
+}
+
+#m {
+	left: 33%;
+}
+
+#a {
+	left: 37%;
+}
+
+#s {
+	left: 41%;
+}
+
+#h {
+	left: 45%
+}
+
+#c {
+	left: 49%;
+}
+
+#o {
+	left: 53%;
+}
+
+#w {
+	left: 57%;
+}
+
+.labelone {
+	position: absolute;
+	top: 150px;
+	left: 10%;
+
+}
+
+.labeltwo {
+	position: absolute;
+	top: 150px;
+	left: 30%;
+}
+
+#futureresult {
+	position: absolute;
+	top: 195px;
+	left: 50%;
+	width: 40%;
+	padding: 5px;
+	height: 500px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#yourfuture {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+}
