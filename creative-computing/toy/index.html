@@ -1,72 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>MASHCOW</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Ranchers" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:700|Ranchers" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Press+Start+2P" rel="stylesheet">
+
 </head>
 <body>
-	<p class="mash" id="m" value="a mansion!">M</p>
-	<p class="mash" id="a" value="an apartment!">A</p>
-	<p class="mash" id="s" value="a shack!">S</p>
-	<p class="mash" id="h" value="a house!">H</p>
-	<p class="mash" id="c" value="a cottage!">C</p>
-	<p class="mash" id="o" value="an outhouse!">O</p>
-	<p class="mash" id="w" value="the whitehouse!">W</p>
-	<form id="myform">
-		<div class="labelone">
-			<div>
-				<p>spouse</p>
-				<p><input id="spouseone" class="spouse" type="text" value="" maxlength="30"></p>
-				<p><input id="spousetwo" class="spouse" type="text" value="" maxlength="30"></p>
-				<p><input id="spousethree" class="spouse" type="text" value="" maxlength="30"></p>
-			</div>
-			<div>
-				<p>income</p>
-				<p><input id="incomeone" class="income" type="text" value="" maxlength="30"></p>
-				<p><input id="incometwo" class="income" type="text" value="" maxlength="30"></p>
-				<p><input id="incomethree" class="income" type="text" value="" maxlength="30"></p>
-			</div>
-			<div>
-				<p>city</p>
-				<p><input id="cityone" class="city" type="text" value="" maxlength="30"></p>
-				<p><input id="citytwo" class="city" type="text" value="" maxlength="30"></p>
-				<p><input id="citythree" class="city" type="text" value="" maxlength="30"></p>
-			</div>
-			<div>
-				<p>occupation</p>
-				<p><input id="jobone" class="job" type="text" value="" maxlength="30"></p>
-				<p><input id="jobtwo" class="job" type="text" value="" maxlength="30"></p>
-				<p><input id="jobthree" class="job" type="text" value="" maxlength="30"></p>
-			</div>
+<div id="background">
+	<p class="header">MASHCOW</p>
+	<div class="mash" id="m" value="a mansion!"></div>
+	<div class="mash" id="a" value="an apartment!"></div>
+	<div class="mash" id="s" value="a shack!"></div>
+	<div class="mash" id="h" value="a house!"></div>
+	<div class="mash" id="c" value="a cottage!"></div>
+	<div class="mash" id="o" value="an outhouse!"></div>
+	<div class="mash" id="w" value="the whitehouse!"></div>
+	<div id="instructions">
+		<p> Fill in three choices for every area of your life and find out where the future will take you. </p>
+	</div>
+	<div id="learnmore">
+		<a href="learnmore.html"> Learn More </a>
+	</div>
+	<div class="labelone">
+		<div class="box">
+			<p>Spouse</p>
+			<p><input id="spouseone" class="spouse" type="text" value="" maxlength="30"></p>
+			<p><input id="spousetwo" class="spouse" type="text" value="" maxlength="30"></p>
+			<p><input id="spousethree" class="spouse" type="text" value="" maxlength="30"></p>
 		</div>
-		<div class="labeltwo">
-			<div>
-				<p>pets</p>
-				<p><input id="petone" class="pet" type="text" value="" maxlength="30"></p>
-				<p><input id="pettwo" class="pet" type="text" value="" maxlength="30"></p>
-				<p><input id="petthree" class="pet" type="text" value="" maxlength="30"></p>
-			</div>
-			<div>
-				<p>car</p>
-				<p><input id="carone" class="car" type="text" value="" maxlength="30"></p>
-				<p><input id="cartwo" class="car" type="text" value="" maxlength="30"></p>
-				<p><input id="carthree" class="car" type="text" value="" maxlength="30"></p>
-			</div>
-			<div>
-				<p>number of children</p>
-				<p><input id="childone" class="children" type="text" value="" maxlength="30"></p>
-				<p><input id="childtwo" class="children" type="text" value="" maxlength="30"></p>
-				<p><input id="childthree" class="children" type="text" value="" maxlength="30"></p>
-			</div>
+		<div class="box">
+			<p>Income</p>
+			<p><input id="incomeone" class="income" type="text" value="" maxlength="30"></p>
+			<p><input id="incometwo" class="income" type="text" value="" maxlength="30"></p>
+			<p><input id="incomethree" class="income" type="text" value="" maxlength="30"></p>
+		</div>
+		<div class="box">
+			<p>City</p>
+			<p><input id="cityone" class="city" type="text" value="" maxlength="30"></p>
+			<p><input id="citytwo" class="city" type="text" value="" maxlength="30"></p>
+			<p><input id="citythree" class="city" type="text" value="" maxlength="30"></p>
+		</div>
+		<div class="box">
+			<p>Occupation</p>
+			<p><input id="jobone" class="job" type="text" value="" maxlength="30"></p>
+			<p><input id="jobtwo" class="job" type="text" value="" maxlength="30"></p>
+			<p><input id="jobthree" class="job" type="text" value="" maxlength="30"></p>
+		</div>
+	</div>
+	<div class="labeltwo">
+		<div class="box">
+			<p>Pets</p>
+			<p><input id="petone" class="pet" type="text" value="" maxlength="30"></p>
+			<p><input id="pettwo" class="pet" type="text" value="" maxlength="30"></p>
+			<p><input id="petthree" class="pet" type="text" value="" maxlength="30"></p>
+		</div>
+		<div class="box">
+			<p>Car</p>
+			<p><input id="carone" class="car" type="text" value="" maxlength="30"></p>
+			<p><input id="cartwo" class="car" type="text" value="" maxlength="30"></p>
+			<p><input id="carthree" class="car" type="text" value="" maxlength="30"></p>
+		</div>
+		<div class="box" id="special">
+			<p>Number of Children</p>
+			<p><input id="childone" class="children" type="text" value="" maxlength="30"></p>
+			<p><input id="childtwo" class="children" type="text" value="" maxlength="30"></p>
+			<p><input id="childthree" class="children" type="text" value="" maxlength="30"></p>
+		</div>
+		<div class="buttons">
 			<input id="button" type='submit' name='Submit' value='your future' />
-				<input type="reset" value="start again">
+			<input id="buttontwo" type="reset" value="start again">
 		</div>
+	</div>
 
-	</form>
-
-	<p id="yourfuture">your future:</p>
+	<p id="yourfuture">Your Future:</p>
 	<div id="futureresult">
 	</div>
+	<a id="website" href="../class_website/index.html"> Sophia Marinelli </a>
+</div>
+
 <script type="text/javascript" src=javascript.js></script>
+
 </body>
 </html>

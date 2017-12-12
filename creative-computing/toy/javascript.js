@@ -73,8 +73,43 @@ futureString = futureString + " You will have a " + petResult + " as a pet."
 futureString = futureString + " You will drive a " + carResult + "."
 futureString = futureString + " You will have " + childrenResult + " children."
 
+
 futureResult.innerHTML = futureString;
+
+
+console.log("!")
 
 }
 
-console.log("!")
+var startAgain = document.getElementById("buttontwo")
+startAgain.addEventListener("click", clearField)
+
+function clearField(evt) {
+document.getElementById("spouseone").value = ""
+document.getElementById("spousetwo").value = ""
+document.getElementById("spousethree").value = ""
+document.getElementById("incomeone").value = ""
+document.getElementById("incometwo").value = ""
+document.getElementById("incomethree").value = ""
+document.getElementById("cityone").value = ""
+document.getElementById("citytwo").value = ""
+document.getElementById("citythree").value = ""
+document.getElementById("petone").value = ""
+document.getElementById("pettwo").value = ""
+document.getElementById("petthree").value = ""
+document.getElementById("jobone").value = ""
+document.getElementById("jobtwo").value = ""
+document.getElementById("jobthree").value = ""
+document.getElementById("carone").value = ""
+document.getElementById("cartwo").value = ""
+document.getElementById("carthree").value = ""
+document.getElementById("childone").value = ""
+document.getElementById("childtwo").value = ""
+document.getElementById("childthree").value = ""
+futureresult.innerHTML = ""
+}
+
+
+
+
+
